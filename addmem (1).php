@@ -17,6 +17,7 @@ $dbUsername = 'root'; // root by default for localhost
 $dbPassword = '';  // by default empty for localhost
 
 $conn = mysqli_connect($dbHost, $dbUsername, $dbPassword, $dbName);
+	
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
