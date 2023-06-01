@@ -5,7 +5,6 @@ if(empty($_POST['guestname']) || empty($_POST['guestemail']) || empty($_POST['gu
 	header("location:index.html");
 else
 {
-	
 	$a=$_POST['guestname'];
 	$b=$_POST['guestemail'];
 	$c=$_POST['guestnumber'];
